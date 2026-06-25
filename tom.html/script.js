@@ -1,24 +1,44 @@
-function afficherJour(id) {
+document.querySelectorAll("button").forEach(btn => {
 
-    const contenuClique = document.getElementById(id);
+btn.addEventListener("mouseenter", () => {
 
-    // Si le jour est déjà ouvert, on le referme
-    if (contenuClique.style.display === "block") {
-        contenuClique.style.display = "none";
-        return;
-    }
+btn.style.transform = "scale(1.08)";
 
-    // On ferme tous les jours
-    const contenus = document.querySelectorAll('.contenu');
+});
 
-    contenus.forEach(contenu => {
-        contenu.style.display = "none";
-    });
+btn.addEventListener("mouseleave", () => {
 
-    // Puis on ouvre celui cliqué
-    contenuClique.style.display = "block";
-}
-document.addEventListener("mousemove", (e) => {
-    cursor.style.left = e.clientX + "px";
-    cursor.style.top = e.clientY + "px";
+btn.style.transform = "scale(1)";
+
+});
+
+});
+
+document.querySelector(".cv-btn")
+.addEventListener("click", () => {
+
+alert("Téléchargement du CV");
+
+});
+
+document.querySelectorAll(".project-card button")
+.forEach(btn => {
+
+btn.addEventListener("click", () => {
+
+alert("Projet à ouvrir");
+
+});
+
+});
+
+document.querySelector(".secondary-btn")
+.addEventListener("click", () => {
+
+document
+.getElementById("contact")
+.scrollIntoView({
+behavior:"smooth"
+});
+
 });

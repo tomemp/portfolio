@@ -1,128 +1,207 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio Développeur</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet"
+/>
+
 </head>
+
 <body>
 
-    <!-- MENU -->
-    <header>
-        <h2>Tom alias Synétraque</h2>
+<div class="particles"></div>
 
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="#">À propos</a>
-            <a href="#">Projets</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+<header>
 
-    <!-- HERO -->
-    <section class="hero">
+<div class="logo">
+<i class="fa-solid fa-code"></i>
+<span>Ton Nom</span>
+</div>
 
-        <div class="hero-text">
-            <p>Salut, moi c'est Synétraque</p>
+<nav>
+<a href="#home">Accueil</a>
+<a href="#about">À propos</a>
+<a href="#projects">Projets</a>
+<a href="#contact">Contact</a>
+</nav>
 
-            <h1>Tom</h1>
+<div class="actions">
+<button class="cv-btn">Télécharger CV</button>
+</div>
 
-            <h2>Développeur Web</h2>
+</header>
 
-            <div class="buttons">
-                <a href="#" class="btn">Voir mes projets</a>
-                <a href="#" class="btn btn-outline">Me contacter</a>
-            </div>
-        </div>
+<section id="home" class="hero">
 
-        <div class="hero-image">
-            <img src="https://cdn.discordapp.com/attachments/1519450347217616937/1519652406135357551/content.png?ex=6a3e5617&is=6a3d0497&hm=08835545289d029138717d42d781d38de0d8fc17f05fa39e704f5cabd7e7723c&" alt="image">
-        </div>
+<div class="hero-left">
 
-    </section>
+<p class="intro">Salut, moi c'est</p>
 
-    <!-- STATS -->
-    <section class="stats">
+<h1>Ton Nom</h1>
 
-        <div class="card">
-            <h3>2</h3>
-            <p>Projets réalisés</p>
-        </div>
+<h2>Développeur Web</h2>
 
-        <div class="card">
-            <h3>1+</h3>
-            <p>Années d'expérience</p>
-        </div>
+<p class="description">
+Passionné par la création d'expériences web modernes,
+rapides et optimisées.
+</p>
 
-        <div class="card">
-            <h3>500+</h3>
-            <p>Heures de code</p>
-        </div>
+<div class="hero-buttons">
 
-    </section>
+<a href="#projects" class="primary-btn">
+Voir mes projets
+</a>
 
-    <!-- A PROPOS -->
-    <section class="about">
+<a href="#contact" class="secondary-btn">
+Me contacter
+</a>
 
-        <div>
-            <h2>À propos de moi</h2>
+</div>
 
-            <br><p>
-                Développeur passionné par le domaine de la cybersécurité et des nouvelles technologies.
-            </p>
+<div class="socials">
 
-            <ul>
-            <strong><li>👨‍🔧 Développeur de bot (bientot)</li></strong>
-              <strong><li>👨‍🔧 Développeur web</li></strong>
-                <strong><li>👨‍🔧 Développeur de serveur FiveM & Discord</li></strong>
-            </ul>
-        </div>
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-discord"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
 
-        <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="about">
+</div>
 
-    </section>
+</div>
 
-    <!-- PROJETS -->
-    <section class="projects">
+<div class="hero-right">
 
-        <h2>Mes Projets</h2>
+<img
+src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+alt=""
+>
 
-        <div class="project-grid">
+</div>
 
-            <div class="project">
-                <img src="https://cdn.discordapp.com/attachments/1519616808926314587/1519641782952919130/feec8f71-d66a-499d-a3cc-c5d859d86d77.png?ex=6a3e4c32&is=6a3cfab2&hm=01fdd75fa5efcef0120b9959f781c9536ec0b876cd2fed07ddb79a780133c95b&" alt="">
-                <h3>Shop discord</h3>
-                <strong><p>🛒 Déco et nitro à gogo</p></strong>
-                <strong><p>💵 Des prix compétitifs</p></strong>
-            </div>
+</section>
 
-            <div class="project">
-                <img src="https://cdn.discordapp.com/attachments/1519450347217616937/1519650206403002449/content.png?ex=6a3e540a&is=6a3d028a&hm=2f168d04ed45ffa48168c4daf2c91fa03b0a25013db92d7aebffb8c6d24e69b1&" alt="">
-                <h3>Serveur FiveM</h3>
-                <strong><p>🔫 Combat tous les jours</p></strong>
-                <strong><p>🤖 Serveur boosté par l'IA</p></strong>
-            </div>
+<section class="stats">
 
-        </div>
+<div class="stat-card">
+<h3>10+</h3>
+<p>Projets réalisés</p>
+</div>
 
-    </section>
+<div class="stat-card">
+<h3>2+</h3>
+<p>Années d'expérience</p>
+</div>
 
-    <!-- CONTACT -->
-    <section class="contact">
+<div class="stat-card">
+<h3>1000+</h3>
+<p>Heures de code</p>
+</div>
 
-        <h2>Un projet en tête ?</h2>
-        <p>Travaillons ensemble.</p>
+<div class="stat-card">
+<h3>50+</h3>
+<p>Clients satisfaits</p>
+</div>
 
-        <a href="#" class="btn">
-            Me contacter
-        </a>
+</section>
 
-    </section>
+<section id="about" class="about">
 
-    <footer>
-        © 2026 Synétraque
-    </footer>
+<div class="about-text">
+
+<h2>À propos de moi</h2>
+
+<p>
+Développeur passionné par les nouvelles technologies,
+le design moderne et les interfaces performantes.
+</p>
+
+<ul>
+<li>Frontend & Backend</li>
+<li>Design moderne</li>
+<li>Optimisation & SEO</li>
+<li>Disponible en freelance</li>
+</ul>
+
+<button>En savoir plus</button>
+
+</div>
+
+<div class="about-image">
+
+<img
+src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+alt=""
+>
+
+</div>
+
+</section>
+
+<section id="projects" class="projects">
+
+<h2>Mes Projets</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<img src="https://picsum.photos/500/300?1">
+<h3>Site E-commerce</h3>
+<p>Boutique moderne complète.</p>
+<button>Voir le projet</button>
+</div>
+
+<div class="project-card">
+<img src="https://picsum.photos/500/300?2">
+<h3>Dashboard</h3>
+<p>Interface analytique avancée.</p>
+<button>Voir le projet</button>
+</div>
+
+<div class="project-card">
+<img src="https://picsum.photos/500/300?3">
+<h3>Bot Discord</h3>
+<p>Bot premium multifonction.</p>
+<button>Voir le projet</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Un projet en tête ?</h2>
+
+<a href="#contact">
+Me contacter
+</a>
+
+</section>
+
+<footer id="contact">
+
+<h3>Contact</h3>
+
+<p>email@exemple.com</p>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
