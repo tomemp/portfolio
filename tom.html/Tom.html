@@ -1,112 +1,128 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio - Tom</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<div class="petale"></div>
-<div class="petale"></div>
-<div class="petale"></div>
-<div class="petale"></div>
-<div class="petale"></div>
+
+    <!-- MENU -->
     <header>
-        <strong><h1>Bienvenue sur le rapport de stage de Tom !</h1></strong>
-        <strong><h2></h2></strong>
-    </header>  
-    <main>
-<section class="presentation">
+        <h2>Tom alias Synétraque</h2>
 
-    <h2>TA PRÉSENTATION</h2>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Projets</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-    <ul>
-        <p><li>Tom Empisse</li></p>
-        <p><li>15 ans</li></p>
-        <p><li>Stagiaire chez Epitech</li></p>
-    </ul>
+    <!-- HERO -->
+    <section class="hero">
 
-</section>
-<div class="epitech">
-<h2>Qu'est-ce qu'Epitech ?</h2>
-<p> Epitech est une école supérieure d'informatique qui forme aux métiers
-du numérique grâce à une pédagogie basée sur la pratique, les projets
-et l'autonomie.</p>
+        <div class="hero-text">
+            <p>Salut, moi c'est Synétraque</p>
 
+            <h1>Tom</h1>
 
-<h5><strong><p>Les plannings de stage</p></strong></h5>
-<div class="images-container">
-    <div class="image-card">
-        <img src="https://cdn.discordapp.com/attachments/1508418712615784459/1517642959854768178/IMG_5433.jpg?ex=6a3706a6&is=6a35b526&hm=1f4994c3222ef725c20f57ee4ec6fc56800c8d647c14aaccb6b8ddf29820ef76&">
-        <p><strong>Semaine n°1</p></strong>
-        
-    </div>
+            <h2>Développeur Web</h2>
 
-    <div class="image-card">
-        <img src="https://cdn.discordapp.com/attachments/1508418712615784459/1517642959401779310/IMG_5475.jpg?ex=6a3706a5&is=6a35b525&hm=7cc9f36837ad0142d7b6bee1d2b4c7408f9ca8818fa9ae2397a9b59684c44990&">
-        <strong><p>Semaine n°2</p></strong>
-</div>
+            <div class="buttons">
+                <a href="#" class="btn">Voir mes projets</a>
+                <a href="#" class="btn btn-outline">Me contacter</a>
+            </div>
+        </div>
 
+        <div class="hero-image">
+            <img src="https://cdn.discordapp.com/attachments/1519450347217616937/1519652406135357551/content.png?ex=6a3e5617&is=6a3d0497&hm=08835545289d029138717d42d781d38de0d8fc17f05fa39e704f5cabd7e7723c&" alt="image">
+        </div>
 
+    </section>
 
-        <h6><strong><p>Les différents jours de stage et ce que je fais</p></strong></h6>
-     <div class="jours">
-    <button onclick="afficherJour('j1')">Jour 1</button>
-    <button onclick="afficherJour('j2')">Jour 2</button>
-    <button onclick="afficherJour('j3')">Jour 3</button>
-    <button onclick="afficherJour('j4')">Jour 4</button>
-    <button onclick="afficherJour('j5')">Jour 5</button>
+    <!-- STATS -->
+    <section class="stats">
 
-    <button onclick="afficherJour('j6')">Jour 6</button>
-    <button onclick="afficherJour('j7')">Jour 7</button>
-    <button onclick="afficherJour('j8')">Jour 8</button>
-    <button onclick="afficherJour('j9')">Jour 9</button>
-    <button onclick="afficherJour('j10')">Jour 10</button>
-    </div>
+        <div class="card">
+            <h3>2</h3>
+            <p>Projets réalisés</p>
+        </div>
 
-     <div id="j1" class="contenu"><h2>Jour 1</h2><p>Le matin, j'ai installé les logicielles indispensables pour mon stage, puis j'ai commencé à coder mon site directement après. 
-     L'aprem-midi, j'ai continué à coder mon site, quasiment toute l'aprem-midi jusqu'à la fin.
-     </p></div>
-     <div id="j2" class="contenu"><h2>Jour 2</h2><p>Le matin, en arrivant, j'ai continué mon site et ensuite j'ai eu une conférence sur la cybersécurité.
-     L'aprem-midi, j'ai fait une activité sur l'OSINT (OSINT =  Open Source Intelligence), puis ensuite un GeoGuesser. 
-     </p></div>
-     <div id="j3" class="contenu"><h2>Jour 3</h2><p>Le matin, j'ai codé une sorte d'Intelligence artificielle pour qu'elle puisse participé à différents combats, ensuite j'ai eu une conférence sur la transformation de l'IA.
-     L'aprem-midi, j'ai codé une sorte d'algorithme, pour qu'elle puisse me sortir un mot de passe a partir de lettres chiffrés 
-     </p></div>
-     <div id="j4" class="contenu"><h2>Jour 4</h2><p>Le matin, on a fait un atelier pour construire le plus de combinaison de canard, on devait soit les construire et apres les dessiner ou l'inverse, enssuite j'ai eu une conférence sur Arprendre à arprendre. 
-     L'aprem-midi, j'ai a travaillé sur une carte arduino, c'est une carte programmabe, on a pu réaliser un jeu qui se nomme "Simon", avec les différents leds, on a pu le reproduire correctement.
-     </p></div>
-     <div id="j5" class="contenu"><h2>Jour 5</h2><p>Le matin, j'ai eu une conférence sur l'IA, sur comment l'utiliser, avec les prompts, si elle pouvait nous remplacé dans le futur.
-     L'aprem-midi j'ai continué mon site jusqu'au soir pour le perfectionner à fond.
-     </p></div>
+        <div class="card">
+            <h3>1+</h3>
+            <p>Années d'expérience</p>
+        </div>
 
-     <div id="j6" class="contenu"><h2>Jour 6</h2><p></p></div>
-     <div id="j7" class="contenu"><h2>Jour 7</h2><p>Contenu du jour 7...</p></div>
-     <div id="j8" class="contenu"><h2>Jour 8</h2><p>Contenu du jour 8...</p></div>
-     <div id="j9" class="contenu"><h2>Jour 9</h2><p>Contenu du jour 9...</p></div>
-     <div id="j10" class="contenu"><h2>Jour 10</h2><p>Contenu du jour 10...</p></div>
+        <div class="card">
+            <h3>500+</h3>
+            <p>Heures de code</p>
+        </div>
 
-<body>
-    <div class="sakura">
-    <span></span><span></span><span></span><span></span><span></span>
-    <span></span><span></span><span></span><span></span><span></span>
-    <span></span><span></span><span></span><span></span><span></span>
-</div>
-</body>
-    </div>
- </section>
+    </section>
 
-</main>
-     <footer>
+    <!-- A PROPOS -->
+    <section class="about">
 
-        <strong><p>2026 - Tom | Fait avec patience et logique</p></strong>
+        <div>
+            <h2>À propos de moi</h2>
+
+            <br><p>
+                Développeur passionné par le domaine de la cybersécurité et des nouvelles technologies.
+            </p>
+
+            <ul>
+            <strong><li>👨‍🔧 Développeur de bot (bientot)</li></strong>
+              <strong><li>👨‍🔧 Développeur web</li></strong>
+                <strong><li>👨‍🔧 Développeur de serveur FiveM & Discord</li></strong>
+            </ul>
+        </div>
+
+        <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="about">
+
+    </section>
+
+    <!-- PROJETS -->
+    <section class="projects">
+
+        <h2>Mes Projets</h2>
+
+        <div class="project-grid">
+
+            <div class="project">
+                <img src="https://cdn.discordapp.com/attachments/1519616808926314587/1519641782952919130/feec8f71-d66a-499d-a3cc-c5d859d86d77.png?ex=6a3e4c32&is=6a3cfab2&hm=01fdd75fa5efcef0120b9959f781c9536ec0b876cd2fed07ddb79a780133c95b&" alt="">
+                <h3>Shop discord</h3>
+                <strong><p>🛒 Déco et nitro à gogo</p></strong>
+                <strong><p>💵 Des prix compétitifs</p></strong>
+            </div>
+
+            <div class="project">
+                <img src="https://cdn.discordapp.com/attachments/1519450347217616937/1519650206403002449/content.png?ex=6a3e540a&is=6a3d028a&hm=2f168d04ed45ffa48168c4daf2c91fa03b0a25013db92d7aebffb8c6d24e69b1&" alt="">
+                <h3>Serveur FiveM</h3>
+                <strong><p>🔫 Combat tous les jours</p></strong>
+                <strong><p>🤖 Serveur boosté par l'IA</p></strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+
+        <h2>Un projet en tête ?</h2>
+        <p>Travaillons ensemble.</p>
+
+        <a href="#" class="btn">
+            Me contacter
+        </a>
+
+    </section>
+
+    <footer>
+        © 2026 Synétraque
     </footer>
-    <script src="script.js"></script>
-  <div id="cursor"></div>
 
 </body>
-
 </html>
